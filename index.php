@@ -16,12 +16,16 @@
     </div>
     <!-- Navigation -->
 
-    <?php include 'pages/navigation.php'; ?>
+    <?php include 'pages/global/navigation.php'; ?>
 
     <div class='flex justify-center text-justify'>
         <div class='w-1/2'>
             <?php 
-                getPage(@$_GET['page']);
+                include 'pages/global/subPages.php';
+
+                if(!isset($subPageActive)){
+                    getPage(@$_GET['page']);
+                }
                 // include 'pages/historie.php';
             ?>
         </div>

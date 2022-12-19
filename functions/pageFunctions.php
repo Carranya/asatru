@@ -7,3 +7,9 @@ function getPage($page){
         include "pages/home.php";
     }
 }
+
+function showSubPage($mainPage, $subPage){
+    getPage($mainPage);
+    echo "<script>scrollToSub('" . $subPage . "');</script>";    
+    return $subPageActive = true;
+}

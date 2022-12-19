@@ -13,14 +13,14 @@ window.onload = function(){
     }
 
     // Untermenue klicken
-  /*   const subMenuPages = [
+    const subMenuPages = [
         'subAlemannen',
         'subGallus',
     ];
 
     for(let sp=0; sp<subMenuPages.length; sp++){
         document.getElementById(subMenuPages[sp]).addEventListener("click", function(){openSub(sp);});
-    } */
+    }
    
 }
 
@@ -38,15 +38,11 @@ function closeMenu(cl){
     document.getElementById(subMenu[cl]).style.display = 'none';
 }
 
-/* function openSub(sp){
+function openSub(sp){
     const subPages = [
         'Alemannen',
         'Gallus',
     ];
         // document.getElementById('historie').style.display = 'block';
         document.getElementById(subPages[sp]).scrollIntoView();
-} */
-
-function scrollToSub(subPage){
-    document.getElementById(subPage).scrollIntoView();
 }

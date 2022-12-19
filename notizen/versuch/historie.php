@@ -1,4 +1,14 @@
-<div id='alemannen'>
+<!-- <div id='historie' class='hidden'> -->
+<script type="text/javascript" src="js/navigation.js"></script>
+
+
+
+<div id='subHistorie' class='flex flex-wrap justify-center bg-gradient-to-r from-lime-600 to-lime-800 text-white font-bold text-center'>
+    <div class='pt-3 pb-3 pl-5 pr-5 hover:bg-lime-500'><span id='subAlemannen' class='cursor-pointer'>Alemannen in der Schweiz</span></div>
+    <div class='pt-3 pb-3 pl-5 pr-5 hover:bg-lime-500'><span id='subGallus' class='cursor-pointer'>Die Religion der heidnischen Alemannen bei Gallus und Columban</span></div>
+</div>
+
+<div id='Alemannen'>
     <h1 class='font-bold underline text-center'>Alemannen in der Schweiz</h1>
     <img src='img/historie/historischklein.jpg' class='float-left m-5'>
     Im Jahr 401 sahen sich die Römer genötigt die Truppen Ihrer Grenzbefestigungen  des Rheins abzuziehen, und Ihre Provinzen schutzlos zurückzulassen.  Die Westgoten, ein germanischer Stamm, war nach Oberitalien durchgebrochen, und bedrohte die Existenz Roms.<br>
@@ -24,7 +34,7 @@ Nicht so, bei den Burgundern und Langobarden. Die durch die Völkerwanderung hei
     www.Geschichte-Schweiz.ch<br>
     Columban und Gallus - Urgeschichte des schweizerischen Christentums, Fritz Blanke, Fretz und Wasmuth Verlag Zürich</span>
 </div>
-<div id='gallus'>
+<div id='Gallus'>
     <h1 class='font-bold underline text-center'>Die Religion der heidnischen Alemannen bei Gallus und Columban</h1>
     Die historischen Zeugnisse sind rar.<br>
     Allerdings gewähren die Viten der Missionare Gallus und Columban einige Einblicke.<br>

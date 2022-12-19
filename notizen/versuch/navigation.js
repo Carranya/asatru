@@ -1,6 +1,6 @@
 window.onload = function(){
     // Pages mit Untermenue hover
-    const pages = [
+   /*  const pages = [
         'menuHistorie',
     ];
 
@@ -10,21 +10,21 @@ window.onload = function(){
 
     for(let cl=0; cl<pages.length; cl++){
         document.getElementById(pages[cl]).addEventListener("mouseout", function(){closeMenu(cl);});
-    }
+    } */
 
     // Untermenue klicken
-  /*   const subMenuPages = [
+    const subMenuPages = [
         'subAlemannen',
         'subGallus',
     ];
 
     for(let sp=0; sp<subMenuPages.length; sp++){
         document.getElementById(subMenuPages[sp]).addEventListener("click", function(){openSub(sp);});
-    } */
+    }
    
 }
 
-function openMenu(op){
+/* function openMenu(op){
     const subMenu = [
         'subHistorie',
     ];
@@ -36,17 +36,13 @@ function closeMenu(cl){
         'subHistorie',
     ];
     document.getElementById(subMenu[cl]).style.display = 'none';
-}
+} */
 
-/* function openSub(sp){
+function openSub(sp){
     const subPages = [
         'Alemannen',
         'Gallus',
     ];
         // document.getElementById('historie').style.display = 'block';
         document.getElementById(subPages[sp]).scrollIntoView();
-} */
-
-function scrollToSub(subPage){
-    document.getElementById(subPage).scrollIntoView();
 }

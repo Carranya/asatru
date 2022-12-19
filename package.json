@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "tailwindcss": "^3.2.4",
+    "tw-elements": "^1.0.0-alpha13"
+  }
+}

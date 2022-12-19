@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" style="scroll-behavior: smooth">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +11,7 @@
 <body class='bg-gradient-to-t from-lime-100 to-lime-600'>
     <?php require ('functions/pageFunctions.php'); ?>
     <!-- Banner -->
-    <div>
+    <div id='banner'>
         <img src='img/header.gif' class='w-full h-40 object-cover'>
     </div>
     <!-- Navigation -->
@@ -21,12 +21,7 @@
     <div class='flex justify-center text-justify'>
         <div class='w-1/2'>
             <?php 
-                include 'pages/global/subPages.php';
-
-                if(!isset($subPageActive)){
-                    getPage(@$_GET['page']);
-                }
-                // include 'pages/historie.php';
+                getPage(@$_GET['page']);
             ?>
         </div>
     </div>

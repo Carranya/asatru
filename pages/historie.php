@@ -1,6 +1,7 @@
 <div id='alemannen'>
+    <br><br>
     <h1 class='font-bold text-lg text-white bg-gradient-to-r from-lime-600 to-lime-800 text-center border-2 border-solid border-white mt-5 mb-5 p-2'>Alemannen in der Schweiz</h1>
-    <img src='img/historie/historischklein.jpg' class='float-left m-5'>
+    <img src='img/historie/historischklein.jpg' class='float-left mr-5 mb-5'>
     Im Jahr 401 sahen sich die Römer genötigt die Truppen Ihrer Grenzbefestigungen  des Rheins abzuziehen, und Ihre Provinzen schutzlos zurückzulassen.  Die Westgoten, ein germanischer Stamm, war nach Oberitalien durchgebrochen, und bedrohte die Existenz Roms.<br>
     Um diesen  begegnen zu können, wurde als letzter verzweifelter Versuch das weströmische Reich zu retten, jeder Soldat benötigt, und die Grenzen entblösst.<br>
     Im Norden lebten  zwischen Donau Main und Rhein die Alamannen. <br>
@@ -10,7 +11,7 @@
     Die religiösen Verhältnisse zu dieser Zeit, auf dem Gebiet der heutigen Deutschschweiz,  müssen wir uns also so vorstellen, dass einer starken heidnischen, auf dem Land angesiedelten Mehrheit, eine geringe christliche, hauptsächlich in den Städten und Marktorten wohnende gallorömische Minderheit gegenüberstand.<br>
     Die Alemannen erlangten dadurch die Majorität. Die Sprache und Kultur setzt sich letztlich durch. Diesem Umstand ist es heute zu verdanken, dass in den nördlichen und östlichen Gebieten der heutigen Schweiz, schwyzerdütsch gesprochen wird, das von Sprachforschern zur alamannischen Sprachfamilie gezählt wird. Die Gebiete, in denen  alemannische Mundart heute noch gesprochen wird umfassen weiterhin: die südlichen 2/3 von Baden-Württemberg, westliche Teile Bayerns, Lichtenstein, Vorarlberg und im Elsass.<br>
     Nicht so, bei den Burgundern und Langobarden. Die durch die Völkerwanderung heimatlosen germanischen Stämme, siedelten sich zwar ebenfalls in Gebieten der heutigen Schweiz an. ( Burgunder 443 in der Westschweiz /  Langobarden 569 im Tessin ). Diese übernahmen allerdings die lateinische Sprache der einheimischen Bevölkerung, aus der sich im Laufe der Jahrhunderte das französische und italienische entwickelte.<br>
-    <img src='img/historie/siedlungenschweiz.jpg' class='w-[442px] text-center'>
+    <img src='img/historie/siedlungenschweiz.jpg' class='w-[442px]'>
     <br>
     <span class='text-red-600'>Rote Markierungen: Römische oder keltische Siedlungsgründungen</span>
     <br>
@@ -25,10 +26,11 @@
     Columban und Gallus - Urgeschichte des schweizerischen Christentums, Fritz Blanke, Fretz und Wasmuth Verlag Zürich
     </span>
     <div class='flex justify-end'>
-        <?php include 'pages/global/returnHistorie.php'; ?>
+        <?php include 'pages/global/returnToTop.php'; ?>
     </div>
 </div>
 <div id='gallus'>
+    <br><br>
     <h1 class='font-bold text-lg text-white bg-gradient-to-r from-lime-600 to-lime-800 text-center border-2 border-solid border-white mt-5 mb-5 p-2'>Die Religion der heidnischen Alemannen bei Gallus und Columban</h1>
     Die historischen Zeugnisse sind rar.<br>
     Allerdings gewähren die Viten der Missionare Gallus und Columban einige Einblicke.<br>
@@ -49,10 +51,11 @@
     <a href='http://www.archaeologie-online.de/magazin/thema/die-alamannen/'>http://www.archaeologie-online.de/magazin/thema/die-alamannen/</a>
     </span>
     <div class='flex justify-end'>
-        <?php include 'pages/global/returnHistorie.php'; ?>
+        <?php include 'pages/global/returnToTop.php'; ?>
     </div>
 </div>
 <div id='arch'>
+    <br><br>
     <h1 class='font-bold text-lg text-white bg-gradient-to-r from-lime-600 to-lime-800 text-center border-2 border-solid border-white mt-5 mb-5 p-2'>Archäologische Funde</h1>    
     <div class='flex flex-wrap justify-center'>
         <div class='text-white pt-3 pb-3 pl-5 pr-5 bg-lime-600 hover:bg-lime-500 border-white border-solid border-2'><a href='index.php?page=historie#arch1'>Schwertscheide bei Gutenstein</a></div>
@@ -65,10 +68,11 @@
         <div class='text-white pt-3 pb-3 pl-5 pr-5 bg-lime-600 hover:bg-lime-500 border-white border-solid border-2'><a href='index.php?page=historie#arch8'>Reiterscheibe von Pliezhausen</a></div>
     </div>
     <div class='flex justify-end'>
-        <?php include 'pages/global/returnHistorie.php'; ?>
+        <?php include 'pages/global/returnToTop.php'; ?>
     </div>
 </div>
 <div id='arch1'>
+    <br><br>
     <h1 class='font-bold text-base text-white bg-gradient-to-r from-lime-600 to-lime-800 text-center border-2 border-solid border-white mt-3 mb-3 p-2'>Schwertscheide bei Gutenstein</h1>    
     <br>
     <br>

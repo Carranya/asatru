@@ -1,0 +1,8 @@
+@font-face{
+    font-family: 'Carattere';
+    src:url('../fonts/Carattere-Regular.ttf');
+}
+
+#bannerText h1 {
+    font-family: 'Carattere', cursive;
+}

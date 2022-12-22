@@ -10,7 +10,11 @@
     <script type="text/javascript" src="js/navigation.js"></script>
 </head>
 <body class='bg-gradient-to-t from-lime-100 to-lime-600'>
-    <?php require ('functions/pageFunctions.php'); ?>
+    <?php
+        session_start();
+        require ('config/config.php');
+        require ('functions/pageFunctions.php');
+    ?>
     <!-- Logo -->
     <?php include 'pages/global/logo.php'; ?>
     

@@ -12,7 +12,7 @@
         $_SESSION['admin'] = true;
     }
 
-    // include 'functions/adminFunctions.php';
+    include 'functions/adminActions.php';
 
     if(!isset($_SESSION['admin'])){
         include 'adminPage/login.php';

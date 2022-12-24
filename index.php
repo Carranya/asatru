@@ -14,6 +14,9 @@
         session_start();
         require ('config/config.php');
         require ('functions/pageFunctions.php');
+        require ('functions/adminFunctions.php');
+        require ('events.php');
+
     ?>
     <!-- Logo -->
     <?php include 'pages/global/logo.php'; ?>

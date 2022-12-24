@@ -10,6 +10,7 @@ function saveEvent(){
         $content .= "'date' => '" . $event['date'] . "',\n";
         $content .= "'time' => '" . $event['time'] . "',\n";
         $content .= "'location' => '" . $event['location'] . "',\n";
+        $content .= "'deleted' => '" . $event['deleted'] . "',\n";
         $content .= "],\n\n";
     }
     $content .= "];";

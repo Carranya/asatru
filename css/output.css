@@ -2003,6 +2003,10 @@ textarea.form-control.is-invalid {
   margin: 0.5rem;
 }
 
+.m-3 {
+  margin: 0.75rem;
+}
+
 .mx-96 {
   margin-left: 24rem;
   margin-right: 24rem;

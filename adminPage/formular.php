@@ -107,7 +107,7 @@
         </div>
         <div class="flex justify-center">
             <div class='w-24 bg-lime-500 rounded-xl text-center p-2 hover:opacity-40'>
-                <button class='text-white font-bold'>Erstellen</button>
+                <button name='createEvent' class='text-white font-bold'>Erstellen</button>
             </div>
         </div>
     </div>

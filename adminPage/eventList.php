@@ -1,6 +1,5 @@
 <?php
     require('events.php');
-
     $reverseEvents = array_reverse($events);
     foreach($reverseEvents as $event){
         $eventDate = $event['date'] . " " . $event['time'];

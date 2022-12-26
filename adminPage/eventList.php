@@ -2,6 +2,9 @@
     require('events.php');
     $reverseEvents = array_reverse($events);
     foreach($reverseEvents as $event){
+        if($event['deleted'] == "true"){
+            continue;
+        }
         $eventDate = $event['date'] . " " . $event['time'];
         $eventDT = new \DateTimeImmuTable($eventDate);
         $showDate = $eventDT->format('d. F Y - H:i');

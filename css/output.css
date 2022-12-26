@@ -2116,6 +2116,22 @@ textarea.form-control.is-invalid {
   width: 4rem;
 }
 
+.w-\[700px\] {
+  width: 700px;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-72 {
+  width: 18rem;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
 .flex-grow {
   flex-grow: 1;
 }
@@ -2209,6 +2225,11 @@ textarea.form-control.is-invalid {
 .bg-blue-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+
+.bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-t {
@@ -2384,6 +2405,11 @@ textarea.form-control.is-invalid {
   line-height: 2.25rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2445,6 +2471,10 @@ textarea.form-control.is-invalid {
 
 .underline {
   text-decoration-line: underline;
+}
+
+.opacity-40 {
+  opacity: 0.4;
 }
 
 .shadow-lg {

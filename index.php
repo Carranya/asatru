@@ -39,5 +39,6 @@
     </div>
 </div>
 <div id='end'></div>
+<?php include 'pages/global/footer.php'; ?>
 </body>
 </html>

@@ -6,7 +6,7 @@
 'date' => '2022-12-15',
 'time' => '21:00',
 'location' => 'Muttenz',
-'deleted' => '',
+'deleted' => 'false',
 ],
 
 [
@@ -15,7 +15,7 @@
 'date' => '2022-12-29',
 'time' => '18:00',
 'location' => 'St. Gallerhof Zürich',
-'deleted' => '0',
+'deleted' => 'false',
 ],
 
 [
@@ -24,7 +24,16 @@
 'date' => '2023-01-05',
 'time' => '18:00',
 'location' => 'St. Gallerhof Zürich',
-'deleted' => '0',
+'deleted' => 'false',
+],
+
+[
+'id' => 4,
+'title' => 'Geburtstag',
+'date' => '2023-02-15',
+'time' => '20:00',
+'location' => 'St. Gallerhof Zürich',
+'deleted' => 'true',
 ],
 
 ];

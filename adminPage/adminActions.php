@@ -23,7 +23,14 @@ if(isset($_POST['createEvent'])){
         'date' => $_POST['date'],
         'time' => $_POST['time'],
         'location' => $_POST['location'],
-        'deleted' => 0,
+        'deleted' => 'false',
     ];
+    saveEvent();
+}
+
+if(isset($_POST['delete'])){
+    global $events;
+    $id = $_POST['delete']-1;
+    $events[$id]['deleted'] = 'true';
     saveEvent();
 }

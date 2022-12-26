@@ -1991,6 +1991,10 @@ textarea.form-control.is-invalid {
   margin: 0px;
 }
 
+.m-3 {
+  margin: 0.75rem;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -2001,10 +2005,6 @@ textarea.form-control.is-invalid {
 
 .m-2 {
   margin: 0.5rem;
-}
-
-.m-3 {
-  margin: 0.75rem;
 }
 
 .mx-96 {
@@ -2056,12 +2056,16 @@ textarea.form-control.is-invalid {
   display: none;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-40 {
   height: 10rem;
 }
 
-.h-10 {
-  height: 2.5rem;
+.h-7 {
+  height: 1.75rem;
 }
 
 .w-full {
@@ -2070,6 +2074,10 @@ textarea.form-control.is-invalid {
 
 .w-96 {
   width: 24rem;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-24 {
@@ -2096,16 +2104,16 @@ textarea.form-control.is-invalid {
   width: 1.5rem;
 }
 
+.w-7 {
+  width: 1.75rem;
+}
+
 .w-52 {
   width: 13rem;
 }
 
-.w-10 {
-  width: 2.5rem;
-}
-
-.w-7 {
-  width: 1.75rem;
+.w-16 {
+  width: 4rem;
 }
 
 .flex-grow {

@@ -1987,6 +1987,10 @@ textarea.form-control.is-invalid {
   margin: 2.5rem;
 }
 
+.m-5 {
+  margin: 1.25rem;
+}
+
 .m-0 {
   margin: 0px;
 }
@@ -1997,10 +2001,6 @@ textarea.form-control.is-invalid {
 
 .m-auto {
   margin: auto;
-}
-
-.m-5 {
-  margin: 1.25rem;
 }
 
 .m-2 {
@@ -2076,6 +2076,10 @@ textarea.form-control.is-invalid {
   width: 24rem;
 }
 
+.w-80 {
+  width: 20rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -2100,6 +2104,10 @@ textarea.form-control.is-invalid {
   width: 8rem;
 }
 
+.w-\[700px\] {
+  width: 700px;
+}
+
 .w-6 {
   width: 1.5rem;
 }
@@ -2112,24 +2120,8 @@ textarea.form-control.is-invalid {
   width: 13rem;
 }
 
-.w-16 {
-  width: 4rem;
-}
-
-.w-\[700px\] {
-  width: 700px;
-}
-
-.w-\[300px\] {
-  width: 300px;
-}
-
-.w-72 {
-  width: 18rem;
-}
-
-.w-80 {
-  width: 20rem;
+.w-\[400px\] {
+  width: 400px;
 }
 
 .flex-grow {
@@ -2198,6 +2190,11 @@ textarea.form-control.is-invalid {
   background-color: rgb(101 163 13 / var(--tw-bg-opacity));
 }
 
+.bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+}
+
 .bg-lime-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(132 204 22 / var(--tw-bg-opacity));
@@ -2225,11 +2222,6 @@ textarea.form-control.is-invalid {
 .bg-blue-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
-}
-
-.bg-red-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-t {
@@ -2400,14 +2392,14 @@ textarea.form-control.is-invalid {
   line-height: 1rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold {

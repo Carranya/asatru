@@ -10,7 +10,7 @@ use Asatru\DateAndTime;
         <h1 class='text-xl text-white font-bold'>
           <?php
             $getDate = new DateAndTime;
-            $getDate->getDate();
+            $getDate->getEvent();
             echo $getDate->getTitle();
             echo "<br>";
             echo $getDate->getNextDate();

@@ -3,7 +3,7 @@
 namespace Asatru;
 
 class DateAndTime {
-    public function getDate(){
+    public function getEvent(){
         
         require('events.php');
         $now = new \DateTimeImmuTable;

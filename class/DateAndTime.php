@@ -29,10 +29,12 @@ class DateAndTime {
 
     public function getTitle(){
         if(!isset($this->title)){
-            die('Kein Eintrag');
-        } else {
-            return $this->title;
+            $this->title = 'Kein Eintrag';
+            $this->nextDate = '';
+            $this->location = '';
         }
+        return $this->title;
+        
     }
 
     public function getNextDate(){

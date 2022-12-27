@@ -3,7 +3,7 @@
 [
 'id' => 1,
 'title' => 'Stammtisch',
-'date' => '2022-12-27',
+'date' => '2022-11-26',
 'time' => '18:00',
 'location' => 'St. Gallerhof Zürich',
 'deleted' => 'false',
@@ -20,20 +20,11 @@
 
 [
 'id' => 3,
-'title' => 'Stammtisch4',
-'date' => '2023-01-05',
+'title' => 'Stammtisch',
+'date' => '2023-01-28',
 'time' => '18:00',
 'location' => 'St. Gallerhof Zürich',
-'deleted' => 'true',
-],
-
-[
-'id' => 4,
-'title' => 'Geburtstag',
-'date' => '2023-02-15',
-'time' => '20:00',
-'location' => 'St. Gallerhof Zürich',
-'deleted' => 'true',
+'deleted' => 'false',
 ],
 
 ];

@@ -27,4 +27,22 @@
 'deleted' => 'false',
 ],
 
+[
+'id' => 4,
+'title' => 'Stammtisch',
+'date' => '2023-02-19',
+'time' => '18:00',
+'location' => 'St. Gallerhof Zürich',
+'deleted' => 'true',
+],
+
+[
+'id' => 5,
+'title' => 'Stammtisch',
+'date' => '2023-01-31',
+'time' => '18:00',
+'location' => 'St. Gallerhof Zürich',
+'deleted' => 'false',
+],
+
 ];

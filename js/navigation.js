@@ -1,6 +1,6 @@
 window.onload = function(){
     // Pages mit Untermenue hover
-    const pages = [
+   /*  const pages = [
         'menuGlaube',
         'menuHistorie',
     ];
@@ -11,7 +11,7 @@ window.onload = function(){
 
     for(let cl=0; cl<pages.length; cl++){
         document.getElementById(pages[cl]).addEventListener("mouseout", function(){closeMenu(cl);});
-    }
+    } */
 
     document.getElementById('openNav').addEventListener("click", openNav);
     document.getElementById('closeNav').addEventListener("click", closeNav);

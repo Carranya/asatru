@@ -1,3 +1,10 @@
+<?php
+    session_start();
+    require_once('config/config.php');
+    require_once('functions/pageFunctions.php');
+    require_once('functions/adminFunctions.php');
+    require_once('events.php');
+?>
 <!DOCTYPE html>
 <html lang="de" style="scroll-behavior: smooth">
 <head>
@@ -10,14 +17,6 @@
     <script type="text/javascript" src="js/navigation.js"></script>
 </head>
 <body class='bg-gradient-to-t from-lime-100 to-lime-600'>
-    <?php
-        session_start();
-        require ('config/config.php');
-        require ('functions/pageFunctions.php');
-        require ('functions/adminFunctions.php');
-        require ('events.php');
-
-    ?>
     <!-- Logo -->
     <?php include 'pages/global/logo.php'; ?>
     
